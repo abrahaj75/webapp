@@ -1,0 +1,125 @@
+/* ADD PRODUCT FORM */
+/* main body */
+.form-control{ /* giving space between input boxes on the form */
+	margin-bottom: 10px;	
+}
+/* input[type=text],  */
+/* input[type=password] {  */
+	/* width: 100%;  */
+	/* padding: 12px 40px;  */
+	/* margin: 8px 0;  */
+	/* display: inline-block;  */
+	/* border: 0px;  */
+	/* box-sizing: none;  */
+/* }  */
+
+.form-row{
+	margin: 0 20px;
+}
+label{
+	padding-left: 20px;
+	color: #6E2C00
+}
+
+/******** BUTTONS ********/
+.btn-div{
+	text-align: center;	
+}
+/******** signin - register FORM ********/
+.signin_form{
+	background: #D8ECFD;
+	padding-bottom: 20px;
+	width: 50%;
+}
+.form_title{
+	margin-top: 20px;
+}
+/******** signin - register button ********/
+.btn-submit{
+    color: white;
+   	background-color: darkorange;
+	border-radius: 5px;
+	border: none;
+	width: 200px;
+	padding: 5px 0;
+	margin-bottom: 20px;
+}
+.btn-submit:hover{
+	background-color: #D35400;
+}
+
+.btn-cancel{
+	color: black;
+	background: #AEB6BF;
+	border-radius: 5px;
+	border: none;
+	width: 200px;
+	padding: 5px 20px;
+	margin-bottom: 20px;	
+}
+.btn-cancel:hover{
+	background: #5D6D7E; 
+	text-decoration: none;
+}
+/********* Reset password refresh validation button *********/
+.refresh_btn{
+	font-size: 20px;
+	color: gray;
+	background: none;
+	border: none;
+	text-align:center;
+}
+.refresh_btn:hover{
+	color: black;
+}
+/******** Register - sign-up, signin error msg ********/
+.red-text{
+	color: red;
+	text-align: right;
+	font-size: 12px;
+	padding-right: 10px;
+}
+
+/******** Sperator Line ********/
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+.separator:not(:empty)::before {
+  margin-right: .25em;
+}
+.separator:not(:empty)::after {
+  margin-left: .25em;
+}
+
+/******** CheckBox Form *******
+.checkbox{
+	margin-left: 175px;
+}*/
+.checkbox_text{
+	padding: 0;
+}
+
+/******** Text link ********/
+.text_link_blue{
+	color: blue;
+	text-decoration: none;
+}
+.text_link_blue:hover{
+	color: blue;
+	text-decoration: underline;
+}
+.unselectabletext{
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}

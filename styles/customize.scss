@@ -1,0 +1,123 @@
+html{
+	background: #F2F3F4;
+	width: 98%;
+	justify-content: center;
+	margin: 0 auto;
+}
+body{
+	justify-content: center;
+	border-left: 1px solid green;
+	border-right: 1px solid green;
+	margin: 0 auto;
+	max-width: 1920px !important;
+	justify-content: center !important;
+}
+body footer{
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+}
+
+/* NAVBAR */
+nav{
+	background-color: #006064 !important;
+}
+.container-fluid{
+	padding: 0px 15px;
+}
+.logo{	
+	height: 40px;
+	width: 150px;
+}
+.logo:hover{
+	outline: 1px solid white;
+}
+
+.nav_menu{
+	float: right;
+}
+.nav_menu li a{
+	color: white !important;
+	padding: 5px 10px;
+}
+
+.nav_menu li a:hover{
+	display: inherit;
+	background-color: #00838f;
+}
+.dropdown:hover .dropdown-menu{
+	display: block;
+}
+.dropdown-menu li a{
+	color: black !important;
+	padding: 5px 10px;
+	margin: 0px;
+}
+.dropdown-menu li a:hover{
+	background-color: #00838f;
+	color: white !important;
+}
+.search_form{
+	width: 550px;
+}
+/*ended NAVBAR*/
+
+/* FOOTER */
+footer{
+	width: 100%;
+	background: #476b6b;
+	height: auto;
+}
+
+/*BUTTONS*/
+/*nav search*/
+.submit_btn{
+	color: white;
+	font-weight: bold;
+	height: 40px;
+	border-radius: 5px;
+    background-color: darkorange;
+	padding: 0px 20px;
+}
+.submit_btn:hover{
+	background-color: #D35400;
+}
+
+/*ICONS*/
+.menu_icons{
+	padding-right: 10px;
+}
+.navbar-toggler, .navbar-toggler-icon{
+	background: #00838f;
+	color: white;
+	padding-top: 4px;
+}
+
+/*	MEDIA */
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	nav{
+		height: 50px;
+	}
+	.search_form{
+		width: 500px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+	
+}
